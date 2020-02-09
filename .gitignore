@@ -1,0 +1,20 @@
+### single files ###
+*.log
+
+### folders ###
+
+# mp3 testing files
+.mp3/
+
+# project dependencies
+node_modules
+
+# build folders
+dist
+build
+
+# coverage reports
+.nyc_output/
+coverage
+.coveralls.yml
+
