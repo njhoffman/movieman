@@ -3,8 +3,8 @@
 
 ### folders ###
 
-# mp3 testing files
-.mp3/
+# movie torrnet locaion
+.torrents/
 
 # project dependencies
 node_modules
