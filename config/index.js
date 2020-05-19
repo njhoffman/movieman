@@ -6,7 +6,7 @@ module.exports = {
       urlSuffix: '99/207',
       // urlSuffix: '7/200',
       minSeeders: 1,
-      fetchInterval: 3000
+      fetchInterval: 1500
     },
     filter: {
       existing: ['/mnt/e/Sorted/Movies'],
