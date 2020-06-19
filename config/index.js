@@ -1,4 +1,5 @@
 module.exports = {
+  logLevel: 'trace',
   scraper: {
     site: {
       url: 'https://thepiratebays.info/search',
@@ -18,8 +19,9 @@ module.exports = {
       historyFile: 'torrents.txt'
     }
   },
-  dupescan: {
-    directories: ['/mnt/D_System/Sorted/Movies', '/mnt/H_Movies/Sorted/Movies'],
+  library: {
+    directories: ['/mnt/Z_Backup/Temp'],
+    // directories: ['/mnt/D_System/Sorted/Movies', '/mnt/H_Movies/Sorted/Movies'],
     extensions: ['mp4', 'mkv', 'wmv', 'avi', 'm4v']
   }
 };
