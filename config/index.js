@@ -1,6 +1,9 @@
 module.exports = {
   logLevel: 'trace',
-  cacheFolder: '.data/cache',
+  cache: {
+    folder: '.data/cache',
+    enabled: true
+  },
   shellFilePath: '.data/dupes.sh',
   scraper: {
     site: {
@@ -22,8 +25,8 @@ module.exports = {
     }
   },
   library: {
-    directories: ['/mnt/H_Movies/Temp'],
-    // directories: ['/mnt/D_System/Sorted/Movies', '/mnt/H_Movies/Sorted/Movies'],
+    // directories: ['/mnt/H_Movies/Temp'],
+    directories: ['/mnt/D_System/Sorted/Movies', '/mnt/H_Movies/Sorted/Movies'],
     extensions: ['mp4', 'mkv', 'wmv', 'avi', 'm4v']
   }
 };
