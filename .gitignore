@@ -4,7 +4,8 @@
 ### folders ###
 
 # movie torrnet locaion
-.torrents/
+.data/
+!.data/.gitkeep
 
 # project dependencies
 node_modules
