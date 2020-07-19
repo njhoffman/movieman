@@ -1,4 +1,10 @@
 module.exports = {
+  logLevel: 'trace',
+  cache: {
+    folder: '.data/cache',
+    enabled: true
+  },
+  shellFilePath: '.data/dupes.sh',
   scraper: {
     site: {
       url: 'https://thepiratebays.info/search',
@@ -14,11 +20,12 @@ module.exports = {
       exclude: '720p'
     },
     writer: {
-      outputFolder: '.torrents',
+      outputFolder: '.data/torrents',
       historyFile: 'torrents.txt'
     }
   },
-  dupescan: {
+  library: {
+    // directories: ['/mnt/H_Movies/Temp'],
     directories: ['/mnt/D_System/Sorted/Movies', '/mnt/H_Movies/Sorted/Movies'],
     extensions: ['mp4', 'mkv', 'wmv', 'avi', 'm4v']
   }
