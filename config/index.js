@@ -27,6 +27,7 @@ module.exports = {
   library: {
     // directories: ['/mnt/H_Movies/Temp'],
     directories: ['/mnt/D_System/Sorted/Movies', '/mnt/H_Movies/Sorted/Movies'],
+    // directories: ['.data/movies/1', '.data/movies/2'],
     extensions: ['mp4', 'mkv', 'wmv', 'avi', 'm4v']
   }
 };
